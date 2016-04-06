@@ -1,0 +1,11 @@
+﻿Build started 4/6/2016 5:27:19 PM.
+     1>Project "C:\SolarSystem\src\mainsrc\proj3_4_OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         F:\VS13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SolarSystem\src\mainsrc\Release\proj3_4_OpenGL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\proj3_4OpenGL\src\librt\lib\Debug /LIBPATH:../libst/lib/Release/ /LIBPATH:../libst/ext/vc2008/lib/Release/ /LIBPATH:C:\proj3_4OpenGL\src\lib /LIBPATH:"C:\Solar System\src\include\GL" glut32.lib libpng.lib jpeg.lib zlib.lib freetype231.lib librt.lib glew.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SolarSystem\src\mainsrc\Release\proj3_4_OpenGL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SolarSystem\src\mainsrc\Release\proj3_4_OpenGL.lib" /MACHINE:X86 /SAFESEH Release\mainsrc_proj3_4.obj
+         C:\SolarSystem\src\libst\lib\Release\libst.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'glaux.lib'
+     1>Done Building Project "C:\SolarSystem\src\mainsrc\proj3_4_OpenGL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

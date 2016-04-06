@@ -1,0 +1,63 @@
+﻿Build started 4/6/2016 5:27:08 PM.
+     1>Project "C:\SolarSystem\src\mainsrc\proj3_4_OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS13\VC\bin\CL.exe /c /IC:\cygwin\home\Corey\environmentmap\proj2_raytracer\src\include /IC:\SolarSystem\src\mainsrc\/../libst/include /IC:\SolarSystem\src\mainsrc\/../libst/ext/glew/include /IC:\SolarSystem\src\mainsrc\/include /IC:\SolarSystem\src\mainsrc\..\librt\include /IC:\UF\teaching\CAP5705\prep_assignments\proj2_raytracer\submit\src\libst\ext\glew\include /I"C:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\libigl\libigl-master\include" /IC:\UF\teaching\CAP5705\prep_assignments\proj3_4_OpenGL\src\libst\ext\glew\include\GL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mainsrc_proj3_4.cpp
+         mainsrc_proj3_4.cpp
+     1>c:\solarsystem\src\librt\include\defs.h(220): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(48): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(50): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(51): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(53): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(87): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(88): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(100): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(143): warning C4305: 'argument' : truncation from 'int' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(144): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(144): warning C4305: 'argument' : truncation from 'int' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(145): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(146): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(146): warning C4305: 'argument' : truncation from 'unsigned long' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(208): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(307): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(311): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(315): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(319): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(323): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(327): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(339): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(343): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(405): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\solarsystem\src\mainsrc\mainsrc_proj3_4.cpp(406): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         F:\VS13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SolarSystem\src\mainsrc\Debug\proj3_4_OpenGL.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../libst/lib/Debug/ /LIBPATH:../libst/ext/vc2008/lib/Debug/ /LIBPATH:..\lib /LIBPATH:../libst/lib/Debug /LIBPATH:../librt/lib/Debug glut32.lib libpng.lib jpeg.lib zlib.lib freetype231.lib glew.lib librt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SolarSystem\src\mainsrc\Debug\proj3_4_OpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SolarSystem\src\mainsrc\Debug\proj3_4_OpenGL.lib" /MACHINE:X86 /SAFESEH Debug\mainsrc_proj3_4.obj
+         C:\SolarSystem\src\libst\lib\Debug\libst.lib
+     1>mainsrc_proj3_4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         librt.lib(Camera.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>mainsrc_proj3_4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>librt.lib(Camera.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in mainsrc_proj3_4.obj
+     1>librt.lib(Camera.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in mainsrc_proj3_4.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: __thiscall SolarSystem::SolarSystem(void)" (??0SolarSystem@@QAE@XZ)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall SolarSystem::calculatePositions(float)" (?calculatePositions@SolarSystem@@QAEXM@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall SolarSystem::addPlanet(float,float,float,float,unsigned int)" (?addPlanet@SolarSystem@@QAEXMMMMI@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall SolarSystem::addMoon(int,float,float,float,float,unsigned int)" (?addMoon@SolarSystem@@QAEXHMMMMI@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall SolarSystem::render(void)" (?render@SolarSystem@@QAEXXZ)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall SolarSystem::renderOrbits(void)" (?renderOrbits@SolarSystem@@QAEXXZ)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: __thiscall Texture::Texture(wchar_t *)" (??0Texture@@QAE@PA_W@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall Texture::GetTexture(void)" (?GetTexture@Texture@@QAEIXZ)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall Camera::Screen_Rotate_Left_Right(void)" (?Screen_Rotate_Left_Right@Camera@@QAEXXZ)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall Camera::Rotate_about_X(float)" (?Rotate_about_X@Camera@@QAEXM@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall Camera::Rotate_about_Y(float)" (?Rotate_about_Y@Camera@@QAEXM@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "public: void __thiscall Camera::Rotate_about_Z(float)" (?Rotate_about_Z@Camera@@QAEXM@Z)
+     1>mainsrc_proj3_4.obj : error LNK2001: unresolved external symbol "float scalePlanet" (?scalePlanet@@3MA)
+     1>C:\SolarSystem\src\mainsrc\Debug\proj3_4_OpenGL.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "C:\SolarSystem\src\mainsrc\proj3_4_OpenGL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.90
